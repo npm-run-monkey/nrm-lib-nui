@@ -1,0 +1,49 @@
+*
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    user-select: none;
+}
+
+.message-container
+{
+    position: fixed;
+    left: 90%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+
+    min-height: 6vh;
+    width: 24vh;
+    padding-left: 1.75vh;
+    padding-right: 1.75vh;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow-wrap: break-word;
+}
+
+.icon
+{
+    flex: 1;
+    font-size: 200%;
+}
+
+.message
+{
+    flex: 4;
+}
+
+.message-title
+{
+    font-weight: 700;
+}
+
+.message-message
+{
+    font-weight: 400;
+}
